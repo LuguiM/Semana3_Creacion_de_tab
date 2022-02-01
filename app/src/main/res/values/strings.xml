@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Creacion_de_tab</string>
+
+    <string name="pop">Pop</string>
+
+    <string name="salsa">salsa</string>
+
+    <string name="reggaeton">Reggaeton</string>
+
+    <string name="hip_hop">Hip Hop</string>
 </resources>
