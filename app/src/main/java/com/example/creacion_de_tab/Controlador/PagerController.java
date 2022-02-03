@@ -1,4 +1,4 @@
-package com.example.creacion_de_tab.PagerController;
+package com.example.creacion_de_tab.Controlador;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
