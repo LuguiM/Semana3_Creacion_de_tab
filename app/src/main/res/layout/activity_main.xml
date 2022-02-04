@@ -10,6 +10,7 @@
     >
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="106dp"
         android:background="@color/teal_200"
@@ -19,34 +20,30 @@
             android:id="@+id/tabPop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pop"
-           android:icon="@drawable/ic_pop"
-            />
+            android:icon="@drawable/ic_pop"
+            android:text="@string/pop" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabSalsa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/salsa"
             android:icon="@drawable/ic_salsa"
-            />
+            android:text="@string/salsa" />
 
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabHip_Hop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hip_hop"
             android:icon="@drawable/ic_hiphop"
-            />
+            android:text="@string/hip_hop" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tabReggaeton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bachata"
             android:icon="@drawable/ic_bachata"
-            />
+            android:text="@string/bachata" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2

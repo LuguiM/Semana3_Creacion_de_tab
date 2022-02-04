@@ -10,4 +10,30 @@
     <string name="hip_hop">Hip Hop</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Dpop">Algunas Canciones del Genero Musical Pop Son:
+    Megan Trainor-All About That Bass,
+        PSY-Gangnam Style,
+        Bruno Mars-The Lazy Song
+    </string>
+
+    <string name="Dsalsa">Algunas Canciones del Genero Musical Salsa Son:
+    Eddie Santiago Lluvia-Tu Me Haces Falta,
+    Jerry Rivera-Que Hay de Malo,
+        Juan Luis Guerra-La Bilirrubina
+    </string>
+
+    <string name="Dhiphop">Algunas Canciones del Genero Musical Hip Hop Son:
+    Roddy Ricch-The Box,
+        Rob $tone-Chill Bill,
+        50 Cent-In Da Club
+    </string>
+
+    <string name="Dbachata">Algunas Canciones Del Genero Musical Bachata Son:
+
+    Romeo Santos-Sobredosis,
+        Prince Royce-Darte Un Beso,
+        Karlos Rose-Infiel
+    </string>
+
 </resources>
