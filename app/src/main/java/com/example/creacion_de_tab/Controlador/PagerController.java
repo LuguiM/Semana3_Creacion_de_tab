@@ -14,29 +14,28 @@ public class PagerController extends FragmentStatePagerAdapter {
         super(fm,behavior);
         this.numoftabs= behavior;
     }
+
     @NonNull
-
     @Override
-public Fragment gerItem(int position) {
-
-        switch (position){
+    public Fragment getItem(int position) {
+        switch (position) {
             case 0:
                 return new Pop();
             case 1:
                 return new Salsa();
             case 2:
-                return new HipHop();
+                return new Hip_Hop();
             case 3:
-                return new bachata();
+                return new Bachata();
             default:
                 return null;
-
         }
     }
-    @Override
-public int () {
 
+
+
+    @Override
+    public int getCount() {
         return numoftabs;
     }
-
-    }
+}
