@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TabLayout = findViewById(R.id.tabLayout);
+        tablayout = findViewById(R.id.menu);
         viewPager = findViewById(R.id.viewpager);
         tab1 = findViewById(R.id.tabPop);
         tab2 = findViewById(R.id.tabHip_Hop);
